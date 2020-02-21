@@ -7,6 +7,7 @@ body {
   font-family: Liberation serif, "Times New Roman", Times, serif;
   font-size: 16px;
 	background-color: #e2dbc8;
+	max-width: 1350px;
 }
 
 header, main, footer {
@@ -15,18 +16,20 @@ text-align: left;
 
 figcaption {
   margin-left: 45em;
+	margin-right: 0em;
 }
 
 h1 {
-	text-align: center;
 	font-size: 30px;
 	color: grey;
 	padding: 1em;
+	margin-left:15em;
+	margin-right: 0em;
 }
 
 h2 {
 	margin-left: 25em;
-	margin-right: 25em;
+	margin-right: 18em;
 	font-size: 16px;
 	color: red;
 	padding-bottom: 1em;
@@ -148,6 +151,7 @@ dl dt {
 
 dl dd {
 	padding: 1em;
+	margin-right: 0em;
 }
 
 ul.lb li {
@@ -163,8 +167,8 @@ header {
 }
 
 p.d {
-	margin-top:3em;
-	float: right
+	margin-top: 3em;
+	float: right;
 }
 
 p.f {
@@ -176,6 +180,7 @@ p.f {
 
 footer {
 	background-color: #596c68;
+	clear: bottom;
 }
 
 img{
@@ -195,6 +200,17 @@ footer img {
 nav {
 	color: red;
 	text-decoration: none;
+}
+
+nav:after {
+	position: absolute;
+	content: close-quote;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 50px;
+	z-index: -1;
+	background-color: inherit;
 }
 
 nav ul {
