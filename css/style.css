@@ -1,0 +1,220 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+  font-family: Liberation serif, "Times New Roman", Times, serif;
+  font-size: 16px;
+	background-color: #e2dbc8;
+}
+
+header, main, footer {
+text-align: left;
+}
+
+figcaption {
+  margin-left: 45em;
+}
+
+h1 {
+	text-align: center;
+	font-size: 30px;
+	color: grey;
+	padding: 1em;
+}
+
+h2 {
+	margin-left: 25em;
+	margin-right: 25em;
+	font-size: 16px;
+	color: red;
+	padding-bottom: 1em;
+}
+
+h2.b {
+	color: grey;
+	font-size: 16px;
+}
+
+h3 {
+	color: grey;
+	margin-left: 22em;
+	margin-right: 10em;
+}
+
+h4 {
+	margin-left: 25em;
+	margin-right: 10em;
+}
+
+dl dt {
+	width: 70%;
+}
+
+p.pd {
+	color: grey;
+	margin-left: 1em;
+	margin: 1em;
+}
+
+img.vw {
+	height: 1.5em;
+	float: right;
+}
+
+aside {
+	margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 25em;
+  margin-right: 25em;
+	background-color: white;
+	border-left: solid;
+	padding-left: 2em;
+	padding-right: 2em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+ul li.icon_camara {
+	list-style-image: url("../img/camara.png");
+}
+
+ul li.icon_libro {
+	list-style-image: url("../img/libro-abierto.jpg");
+}
+
+ul li.icon_guias {
+	list-style-image: url("../img/guias.png");
+}
+
+ul li ol {
+	list-style-image: none;
+}
+
+a.al {
+	color: red;
+}
+
+aside section {
+	color: red;
+	font-size: 18px;
+}
+
+aside footer {
+	background-color: white;
+	font-size: 15px
+}
+
+p.w {
+	background-color: white;
+	border-left: solid;
+	border-color: black;
+	padding-left: 2em;
+	padding-right: 2em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	color: grey;
+}
+
+p {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 25em;
+  margin-right: 25em;
+	text-align: justify;
+}
+
+ul.lb {
+	margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 25em;
+  margin-right: 25em;
+	text-align: justify;
+}
+
+dl {
+	margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 18em;
+  margin-right: 18em;
+	text-align: left;
+}
+
+dl dt {
+	padding: 1em;
+	color: red;
+}
+
+dl dd {
+	padding: 1em;
+}
+
+ul.lb li {
+	padding: 0.5em;
+}
+
+ol {
+	margin-left: 5em;
+}
+
+header {
+	background-color: #423737;
+}
+
+p.d {
+	margin-top:3em;
+	float: right
+}
+
+p.f {
+	margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 25em;
+  margin-right: 25em;
+}
+
+footer {
+	background-color: #596c68;
+}
+
+img{
+	height: 17em;
+	margin-left: 25em;
+	border-style: solid;
+	border-color: white;
+	border-width: 0.5em;
+}
+
+footer img {
+	height: 2em;
+	border: none;
+	margin: 2em;
+}
+
+nav {
+	color: red;
+	text-decoration: none;
+}
+
+nav ul {
+	margin-left: 25em;
+}
+
+nav ul li{
+  display: inline-block;
+  margin: 1em;
+}
+
+nav ul li a.in {
+	color: white;
+}
+
+nav ul li a {
+	color: red;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	text-decoration: underline;
+}
